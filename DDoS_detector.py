@@ -87,7 +87,7 @@ class DDoSDetector:
 
 
 			#feeds input data and output data into the neural network
-			predicted_labels = self.neural_network.predict(normalized_input)
+			predicted_labels = self.neural_network.predict(normalized_input,normalized_output)
 
 			# self.data_handler.save_prediction(dataset_index, pcap_index)
 
